@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Administrator</class>
+ <widget class="QWidget" name="Administrator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Administrator</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="DisableUsersButton">
+     <property name="text">
+      <string>Disable users</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="EnableUsersButton">
+     <property name="text">
+      <string>Enable users</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="DisconnectUsersButton">
+     <property name="text">
+      <string>Disconnect users</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="AccessServerButton">
+     <property name="text">
+      <string>Access server</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="OpenErrorsFileButton">
+     <property name="text">
+      <string>Open errors file</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="ClearErrorsFileButton">
+     <property name="text">
+      <string>Clear errors file</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

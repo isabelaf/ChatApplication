@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BlockUnblockUserDialog</class>
+ <widget class="QDialog" name="BlockUnblockUserDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>428</width>
+    <height>156</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="Step1">
+     <property name="title">
+      <string>Enter your username:</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item alignment="Qt::AlignTop">
+       <widget class="QLineEdit" name="UserNameValue"/>
+      </item>
+      <item alignment="Qt::AlignTop">
+       <widget class="QPushButton" name="ContinueButton">
+        <property name="text">
+         <string>Continue</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="Step2">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item alignment="Qt::AlignTop">
+       <widget class="QLineEdit" name="BlockedUnblockedUserNameValue"/>
+      </item>
+      <item alignment="Qt::AlignTop">
+       <widget class="QPushButton" name="BlockUnblockButton">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

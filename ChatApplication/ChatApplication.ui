@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChatApplication</class>
+ <widget class="QWidget" name="ChatApplication">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>289</width>
+    <height>223</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ChatApp</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="NewUserButton">
+     <property name="text">
+      <string>Connect to chat</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="BlockUserButton">
+     <property name="text">
+      <string>Block user</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="UnblockUserButton">
+     <property name="text">
+      <string>Unblock user</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

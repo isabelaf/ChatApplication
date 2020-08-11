@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewUserDialog</class>
+ <widget class="QDialog" name="NewUserDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>624</width>
+    <height>348</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>NewUser</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_5">
+   <item>
+    <widget class="QGroupBox" name="Step1">
+     <property name="minimumSize">
+      <size>
+       <width>602</width>
+       <height>220</height>
+      </size>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="1" column="0" alignment="Qt::AlignHCenter|Qt::AlignTop">
+         <widget class="QLabel" name="NameField">
+          <property name="text">
+           <string>Name</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" alignment="Qt::AlignHCenter|Qt::AlignTop">
+         <widget class="QLabel" name="UserNameField">
+          <property name="text">
+           <string>Username</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item alignment="Qt::AlignTop">
+           <widget class="QLineEdit" name="UserNameValue"/>
+          </item>
+          <item alignment="Qt::AlignTop">
+           <widget class="QLabel" name="UserNameErrors">
+            <property name="palette">
+             <palette>
+              <active>
+               <colorrole role="WindowText">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Text">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="ButtonText">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+              </active>
+              <inactive>
+               <colorrole role="WindowText">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Text">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="ButtonText">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+              </inactive>
+              <disabled>
+               <colorrole role="WindowText">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Text">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="ButtonText">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+              </disabled>
+             </palette>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel { color : red; }</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item alignment="Qt::AlignTop">
+           <widget class="QLineEdit" name="NameValue"/>
+          </item>
+          <item alignment="Qt::AlignTop">
+           <widget class="QLabel" name="NameErrors">
+            <property name="palette">
+             <palette>
+              <active>
+               <colorrole role="WindowText">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Text">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="ButtonText">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+              </active>
+              <inactive>
+               <colorrole role="WindowText">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Text">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="ButtonText">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+              </inactive>
+              <disabled>
+               <colorrole role="WindowText">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Text">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="ButtonText">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>255</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                 </color>
+                </brush>
+               </colorrole>
+              </disabled>
+             </palette>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel { color : red; }</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QPushButton" name="NextButton">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Next</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="Step2">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QPushButton" name="UploadPhotoButton">
+          <property name="text">
+           <string>Upload photo</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="PhotoName">
+          <property name="text">
+           <string>No photo chosen.</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QPushButton" name="ConnectButton">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Connect</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
